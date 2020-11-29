@@ -95,7 +95,7 @@ button {
   right: 213px;
 }
 .hero .hero__container {
-  background: url("../../images/_jpg/beats1.png") right center/44% auto no-repeat;
+  background: url("./images/_jpg/beats1.png") right center/44% auto no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -346,7 +346,7 @@ button {
   position: relative;
 }
 .benefits-section:before {
-  content: url("../../images/decor/Vector 2.png");
+  content: url("./images/decor/Vector 2.png");
   display: block;
   position: absolute;
   width: 35px;
