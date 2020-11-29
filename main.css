@@ -288,7 +288,7 @@ button {
   position: relative;
 }
 .benefits__item:before {
-  content: url("../../images/decor/Shape.png");
+  content: url("./images/decor/Shape.png");
   position: absolute;
   top: 50px;
   right: 0px;
