@@ -1,0 +1,20 @@
+.contacts {
+  display: flex;
+  align-items: center;
+  min-width: 152px;
+}
+
+.contacts__pic {
+  display: block;
+  width: 14px;
+  height: 14px;
+  margin-right: 7px;
+}
+
+.contacts__telephone {
+  text-decoration: none;
+  font-size: 18px;
+  color: #292922;
+  font-style: normal;
+  line-height: 1;
+}

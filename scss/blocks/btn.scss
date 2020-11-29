@@ -1,0 +1,29 @@
+.btn {
+  border-radius: 100px;
+  padding: 16px 40px;
+  background-color: $red;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid transparent;
+  cursor: pointer;
+  &:hover {
+    background: white;
+    color: $red;
+    border: 2px solid $red;
+  }
+}
+
+.btn--theme--black {
+  background: $red;
+  background: transparent;
+  text-transform: none;
+  font-weight: normal;
+  padding: 12px;
+  &:hover {
+    background: transparent;
+    border: none;
+    color: $red;
+  }
+}
