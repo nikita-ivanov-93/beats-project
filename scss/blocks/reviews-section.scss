@@ -5,11 +5,17 @@
     content: '';
     display: block;
     position: absolute;
-    width: 36px;
-    height: 36px;
+    width: rem(36px);
+    height: rem(36px);
     border-radius: 50%;
     background-color: #868686;
-    bottom: -18px;
-    left: 213px;
+    bottom: rem(-18px);
+    left: rem(213px);
+  }
+}
+
+.reviews-section__container {
+  @include tablets {
+    padding: 0;
   }
 }

@@ -1,10 +1,11 @@
 .radio {
+  font-size: 16px;
   display: flex;
   color: white;
   cursor: pointer;
   user-select: none;
-  margin-right: 16px;
-  margin-bottom: 20px;
+  margin-right: rem(16px);
+  margin-bottom: rem(20px);
   align-items: center;
   &:last-child {
     margin-right: 0;
@@ -13,7 +14,7 @@
     .radio__visible {
       border-radius: 0;
       &::before {
-        background: url(../../images/icons/check_mark.png) center center no-repeat;
+        background: url(./images/icons/Checkmark.svg) center center no-repeat;
       }
     }
   }
@@ -35,7 +36,7 @@
   border-radius: 50%;
   background-color: white;
   position: relative;
-  margin-right: 10px;
+  margin-right: rem(10px);
 
   &:before {
     content: '';

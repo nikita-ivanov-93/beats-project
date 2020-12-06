@@ -1,7 +1,12 @@
 .header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  .telephone.header__telephone {
+    @include tablets {
+      display: none;
+    }
+  }
 }
 
 

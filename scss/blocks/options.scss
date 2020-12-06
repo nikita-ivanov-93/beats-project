@@ -1,10 +1,9 @@
 .options {
   display: flex;
-  width: 60%;
   .options__item {
     display: flex;
-    min-width: 30%;
-    margin-right: 11px;
+    max-width: 30%;
+    margin-right: 2.45rem;
     &:last-child {
       margin-right: 0;
     }

@@ -3,10 +3,13 @@
   text-decoration: none;
   display: flex;
   align-items: center;
-  margin-left: 46px;
+  margin-left: rem(46px);
+  @include phones {
+    font-size: 16px;
+  }
   .telephone__pic {
-    width: 14px;
-    height: 14px;
-    margin-right: 6px;
+    width: rem(14px);
+    height: rem(14px);
+    margin-right: rem(6px);
   }
 }

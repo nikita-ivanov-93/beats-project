@@ -1,3 +1,16 @@
+html {
+  font-size: $baseFontSize;
+
+  @include tablets {
+    font-size: $baseFontSize - 1px;
+  }
+
+  @include phones {
+    font-size: $baseFontSize - 4px;
+  }
+
+}
+
 html, 
 body {
   height: 100%;
@@ -6,7 +19,6 @@ body {
 
 body {
   font-family: 'Play', Arial, Helvetica, sans-serif;
-  font-size: $baseFontSize;
   line-height: 1.42;
   position: relative;
   width: 100%;
@@ -18,8 +30,8 @@ body {
 }
 
 ul {
-  padding: 0px;
-  margin: 0px;
+  padding: rem(0px);
+  margin: rem(0px);
   li {
     list-style: none;
   }
@@ -60,20 +72,23 @@ button {
   cursor: pointer;
 }
 
+address {
+  font-style: normal;
+}
 
 .wrapper {
   position: relative;
   width: 100%;
-  min-width: $containerWidth + 20px;
   min-height: 100%;
   overflow: hidden;
 }
 
 .container {
-  width: $containerWidth;
   margin: 0 auto;
+  width: 95%;  // Что был небольшой отступ от краев окна
+  max-width: $containerWidth;
   position: relative;
-  padding: 0px 82px;
+  padding: rem(0px) 5.825rem;
 }
 
 
