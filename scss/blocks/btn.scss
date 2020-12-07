@@ -13,6 +13,7 @@
     background: white;
     color: $red;
     border: rem(2px) solid $red;
+    transition: 1s;
   }
 }
 
@@ -23,9 +24,11 @@
   text-transform: none;
   font-weight: normal;
   padding: rem(12px);
+  border: transparent;
   &:hover {
     background: transparent;
     border: none;
     color: $red;
+    transition: 1s;
   }
 }

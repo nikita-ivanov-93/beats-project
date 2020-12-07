@@ -20,11 +20,5 @@
 
 .footer__telephone {
   margin-left: 0;
-  @include tablets {
-    color: red;
-  }
-  @include phones {
-    color: #292929;
-  }
     
 }

@@ -6,9 +6,11 @@
   margin-left: rem(46px);
 
   &:hover {
+    transition: 1s;
     color: red;
     .telephone__pic {
       fill: red;
+      transition: 1s;
     }
   }
   @include phones {

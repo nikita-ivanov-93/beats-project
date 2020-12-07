@@ -4,6 +4,10 @@
   border-radius: 50%;
   overflow: hidden;
   position: relative;
+  &:hover {
+    border: rem(4px) solid #E01F3D;
+  }
+
   &--active {
     border: rem(4px) solid #E01F3D;
   }

@@ -151,7 +151,7 @@ address {
   .hero .hero__title-section::before {
     content: "";
     display: block;
-    background-image: url("/images/jpg/beats1.png");
+    background-image: url("./images/jpg/beats1.png");
     background-size: 100%;
     width: 320px;
     height: 320px;
@@ -257,6 +257,7 @@ address {
   background: white;
   color: #E01F3D;
   border: 0.125rem solid #E01F3D;
+  transition: 1s;
 }
 
 .btn--theme--black {
@@ -266,11 +267,13 @@ address {
   text-transform: none;
   font-weight: normal;
   padding: 0.75rem;
+  border: transparent;
 }
 .btn--theme--black:hover {
   background: transparent;
   border: none;
   color: #E01F3D;
+  transition: 1s;
 }
 
 .telephone {
@@ -281,10 +284,12 @@ address {
   margin-left: 2.875rem;
 }
 .telephone:hover {
+  transition: 1s;
   color: red;
 }
 .telephone:hover .telephone__pic {
   fill: red;
+  transition: 1s;
 }
 @media screen and (max-width: 480px) {
   .telephone {
@@ -321,6 +326,7 @@ address {
 }
 .menu .menu__list .menu__item:hover {
   color: #E01F3D;
+  transition: 1s;
 }
 .menu .menu__list .menu__item:last-child {
   margin-right: 0;
@@ -660,6 +666,9 @@ address {
   overflow: hidden;
   position: relative;
 }
+.interactive-avatar:hover {
+  border: 0.25rem solid #E01F3D;
+}
 .interactive-avatar--active {
   border: 0.25rem solid #E01F3D;
 }
@@ -939,16 +948,6 @@ address {
 .footer__telephone {
   margin-left: 0;
 }
-@media screen and (max-width: 768px) {
-  .footer__telephone {
-    color: red;
-  }
-}
-@media screen and (max-width: 480px) {
-  .footer__telephone {
-    color: #292929;
-  }
-}
 
 .contacts {
   display: flex;
@@ -1002,8 +1001,9 @@ address {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  fill: "#B3B3B3";
+  fill: #B3B3B3;
 }
 .socials__item:hover .socials__img {
-  fill: "black";
+  fill: black;
+  transition: 1s;
 }

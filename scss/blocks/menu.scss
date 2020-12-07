@@ -19,6 +19,7 @@
       margin-right: rem(15px);
       &:hover {
         color: $red;
+        transition: 1s;
        }
       &:last-child {
         margin-right: 0;
