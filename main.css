@@ -511,7 +511,7 @@ address {
   position: absolute;
   width: 2.1875rem;
   height: 2.1875rem;
-  bottom: 0rem;
+  bottom: -1rem;
   left: 13.3125rem;
 }
 
