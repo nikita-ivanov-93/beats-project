@@ -12,9 +12,7 @@ let toggleMenu = function (e) {
 
 button.addEventListener('click', toggleMenu);
 menuLink.addEventListener('click', function (e) {
-  let target = e.target;
-  target.addEventListener('click', function (a) {
-    body.classList.toggle('body-active-menu');
-  })
-  console.log(target);
+  button.classList.toggle('hamburger--active');
+  menu.classList.toggle('menu-overlay');
+  body.classList.toggle('body-active-menu');
 });
