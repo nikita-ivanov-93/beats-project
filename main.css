@@ -1374,7 +1374,7 @@ address {
   outline: none;
 }
 .team .team__member .team__member-title::after {
-  content: url("/images/decor/triangle.svg");
+  content: url("./images/decor/triangle.svg");
   position: absolute;
   height: 9px;
   width: 9px;
