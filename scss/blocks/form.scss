@@ -56,7 +56,7 @@
         border: rem(3px) solid $red;
         outline: none;
       }
-
+      
       @include tablets {
         padding: rem(7px) rem(8px);
         &--textarea {
@@ -64,6 +64,9 @@
           margin-bottom: rem(0px);
         }
       }
+    }
+    .input-error {
+      border: rem(3px) solid $red;
     }
   }
 }
