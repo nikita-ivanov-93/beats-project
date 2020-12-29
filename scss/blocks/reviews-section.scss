@@ -16,6 +16,6 @@
 
 .reviews-section__container {
   @include tablets {
-    padding: 0;
+    padding: 0 rem(10px);
   }
 }

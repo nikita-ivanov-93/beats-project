@@ -83,17 +83,25 @@ address {
 .wrapper {
   position: relative;
   width: 100%;
-  min-height: 100%;
+  height: 100%;
   overflow: hidden;
+}
+
+.main-content {
+  height: 100%;
+  transition: transform 0.8s;
+  will-change: transform; //подготовка браузера для изменения больших размеров
 }
 
 .container {
   margin: 0 auto;
-  width: 95%;  // Что был небольшой отступ от краев окна
+  width: 100%;  // Что был небольшой отступ от краев окна
   max-width: $containerWidth;
   position: relative;
   padding: rem(0px) 5.825rem;
 }
+
+
 
 
 
