@@ -1,6 +1,6 @@
 .hero {
   background-color: $grey;
-  height: 100vh;
+  height: 100%;
   min-height: rem(650px);
   color: #292929;
   position: relative;
@@ -30,9 +30,11 @@
     height: 100%;
     padding-top: 1.6rem;
     padding-bottom: rem(50px);
+    
     @include tablets {
       background: none;
-      padding: rem(26px) 0;
+      // padding: rem(26px) 0;
+      padding: rem(26px) rem(36px) rem(26px) rem(22px);
     }
   }
   
