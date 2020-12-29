@@ -1517,7 +1517,7 @@ address {
 
 .colors-container {
   display: flex;
-  background: url(/images/decor/colors-back.png) right 16% center no-repeat;
+  background: url(./images/decor/colors-back.png) right 16% center no-repeat;
   justify-content: flex-end;
   color: white;
   padding: 0;
@@ -1658,7 +1658,7 @@ address {
   right: 0;
   bottom: 0;
   cursor: pointer;
-  background: url(/images/decor/player-splash-triangle.jpg) center center no-repeat, url(/images/decor/player-paused.png) center center no-repeat;
+  background: url(./images/decor/player-splash-triangle.jpg) center center no-repeat, url(./images/decor/player-paused.png) center center no-repeat;
 }
 .player-container .player .player__controls {
   width: 100%;
@@ -1737,7 +1737,7 @@ address {
   position: relative;
   width: 3.625rem;
   height: 0.25rem;
-  background: linear-gradient(to right, #E01F3D 50%, #333 50%);
+  background: linear-gradient(to right, #E01F3D 100%, #333 100%);
   margin-left: 1.5rem;
   position: relative;
   cursor: pointer;
